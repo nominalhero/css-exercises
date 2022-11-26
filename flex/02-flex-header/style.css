@@ -9,11 +9,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 a {
@@ -22,4 +32,9 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
